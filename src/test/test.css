@@ -1,0 +1,14 @@
+.search{
+    width: 100%;
+    text-align: left;
+    padding-left: 3em;
+}
+li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li span{
+    width: 33%;
+}
