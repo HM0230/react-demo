@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom'
+// import ReactDOM from 'react-dom'
 // import logo from './logo.svg';
 import './App.css';
 // import axios from 'axios'
 import Test from './test/test'
-import { Router, Route } from 'react-router'
+// import { Router, Route } from 'react-router'
 
 class App extends Component {
   state = {
@@ -40,14 +40,14 @@ class App extends Component {
     );
   }
 }
-ReactDOM.render((
-  <Router>
-    <Route path="/" component={App}>
-      <Route path="" component={Test} />
-      <Route path="" component={Test}>
-        <Route path="" component={Test} />
-      </Route>
-    </Route>
-  </Router>
-), document.body)
+// ReactDOM.render((
+//   <Router>
+//     <Route path="/" component={App}>
+//       <Route path="" component={Test} />
+//       <Route path="" component={Test}>
+//         <Route path="" component={Test} />
+//       </Route>
+//     </Route>
+//   </Router>
+// ), document.body)
 export default App;
